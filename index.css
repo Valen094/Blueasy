@@ -194,13 +194,13 @@ textarea {
     padding: 5px;
 }
 
-/* 
+
 #links_portfolio a:hover {
     color: rgb(0, 179, 255);
     border: 2px solid rgb(0, 179, 255);
     padding: 5px;
 
-} */
+}
 
 #header_portfolio {
     display: grid;
@@ -372,7 +372,6 @@ textarea {
     text-align: end;
     font-size: 40px;
 }
-
 
 #parrafo_testimonials {
     align-items: center;
@@ -766,4 +765,79 @@ textarea {
     #links_footer {
         grid-column: 2/7;
     }
+}
+
+@media screen and (max-width: 400px){
+
+    main{
+        width: 400px;
+    }
+    
+    header{
+        width: 100%;
+    }
+
+    main {
+        grid-template-rows: 554px 689px 748px 400px 250px 449px 307px 600px 100px;
+    }
+
+    .services {
+        height: 302px;
+        padding-bottom: 388px;
+    }
+
+    #titu_portfolio{
+        justify-content: center;
+        align-content: center;
+        margin-right: 28px;
+    }
+
+    .center_services {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .who_jhon {
+        height: 473px;
+    }
+
+    #links_portfolio {
+        flex-wrap: wrap;
+    }
+
+    #cont_p_just_default {
+        justify-content: end;
+        font-size: 15px;
+        display: grid;
+        width: 300px;
+    }
+
+    #cont1_who_jhon hr{
+        margin-bottom: 55px;
+    }
+
+    #cont2_who_jhon img{
+        /* display: none; */
+        width: 25px;
+    }
+
+    #parr_uno {
+        width: 178px;
+    }
+
+    input {
+        width: 130px;
+    }
+
+    textarea {
+        width: 335px;
+    }
+
+    #links_footer {
+        grid-column: 2/8;
+        font-size: 9px;
+    }
+
 }
