@@ -705,5 +705,65 @@ textarea {
 }
 
 @media screen and (max-width: 480px){
+
+    main{
+        width: 480px;
+    }
     
+    header{
+        width: 100%;
+    }
+
+    #cont_p_just_default {
+        padding: 45px;
+    }
+
+    .who_jhon {
+        background-image: url(/images/bg_whoIs.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 380px;
+    }
+
+    #cont1_who_jhon hr{
+        margin-bottom: 40px;
+    }
+
+    #cont2_who_jhon {
+        font-size: 12px;
+    }
+
+    #cont2_who_jhon img{
+        /* display: none; */
+        width: 30px;
+    }
+    
+    #espacio_who_jhon {
+        font-size: 12px;
+    }
+
+    #header_testimonials {
+        height: 5px;
+    }
+
+    #link_testimonials a {
+        grid-column: 2/4;
+    }
+
+    #parr_uno{
+        width: 224px;
+    } 
+
+    input{
+        width: 157px;
+    }
+
+    textarea {
+        width: 400px;
+    }
+
+    #links_footer {
+        grid-column: 2/7;
+    }
 }
