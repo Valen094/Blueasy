@@ -767,10 +767,10 @@ textarea {
     }
 }
 
-@media screen and (max-width: 470px){
+@media screen and (max-width: 475px){
 
     main{
-        width: 470px;
+        width: 475px;
     }
     
     header{
@@ -778,12 +778,12 @@ textarea {
     }
 
     main {
-        grid-template-rows: 554px 689px 748px 400px 250px 449px 307px 600px 100px;
+        grid-template-rows: 554px 689px 834px 400px 250px 449px 307px 600px 100px;
     }
 
     .services {
         height: 302px;
-        padding-bottom: 388px;
+        padding-bottom: 404px;
     }
 
     #titu_portfolio{
