@@ -767,10 +767,10 @@ textarea {
     }
 }
 
-@media screen and (max-width: 475px){
+@media screen and (max-width: 470px){
 
     main{
-        width: 475px;
+        width: 470px;
     }
     
     header{
